@@ -22,7 +22,7 @@ func main () {
 	
 	Hello.Tail = "World"
 	
-	Hello.EndTypes = []byte ( "!.:" )
+	Hello.EndTypes = []byte ( "!.;" )
 	
 	
 	byteSent , err := json.Marshal ( Hello )
