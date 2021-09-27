@@ -4,7 +4,7 @@ import (
 	"net"
 	"log"
 	)
-type ThreeTypeStructure struct {
+type FourTypeStructure struct {
 	Head string //byte slice
 	MidSeparatorTypes []byte
 	Tail string
@@ -14,7 +14,7 @@ type ThreeTypeStructure struct {
 	
 func main () {
 	
-	var Hello ThreeTypeStructure 
+	var Hello FourTypeStructure 
 	
 	Hello.Head =  "Hello" 
 	

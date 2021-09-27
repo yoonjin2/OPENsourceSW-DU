@@ -10,7 +10,7 @@ import (
 	"bufio"
 	"os"
 	)
-type ThreeTypeStructure struct {
+type FourTypeStructure struct {
 	Head string //byte slice
 	MidSeparatorTypes []byte
 	Tail string
@@ -27,7 +27,7 @@ func main () {
 		return
 	
 	}
-	var Hello ThreeTypeStructure 
+	var Hello FourTypeStructure 
 	
 	tcpDial , err := net.Dial ( "tcp" , os.Args [ 1 ] + ":3779" ) 
 	
