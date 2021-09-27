@@ -1,3 +1,3 @@
 # OPENsourceSW-DU
 HELLO WORLD EXAMPLE
-
+`make all`
