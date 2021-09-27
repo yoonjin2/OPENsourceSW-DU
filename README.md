@@ -1,3 +1,3 @@
 # OPENsourceSW-DU
-HELLO WORLD EXAMPLE
+HELLO WORLD EXAMPLE ( how to build ) :
 `make all`
